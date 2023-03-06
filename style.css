@@ -76,3 +76,28 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+/*horizontally aligned on a single row and vertically centered within the header container*/
+.group {
+  display: flex ;
+/*flex-direction: row;*/
+align-items: center ;
+justify-content: center;
+}
+
+/*Hi! I'm Pete Thinkful section should be horizontally aligned on the same row.*/
+.about{
+  display:flex
+}
+
+/*Hi!I'm Pete Thinkful heading should be centered within the section container, and the text below should be left aligned.*/
+.items{
+  text-align: left;
+}
+
+/* project descriptions should use a font size of 14px and displayed objects in a row*/
+.projects{
+  display: flex;
+    font-size: 14px;
+   
+}
